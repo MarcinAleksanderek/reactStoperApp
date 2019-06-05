@@ -1,0 +1,48 @@
+body {
+	color: #3c3c3c;
+	font-size: 32px;
+	overflow: hidden;
+	background: #7BE4E7;
+}
+
+.stopwatch {
+	font-family: 'Orbitron', sans-serif;
+	font-size: 50px;
+	color: #fff;
+	align-self: flex-start;
+}
+
+.center {
+	width: 300px;
+	margin: 40vh auto;;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
+li {
+	text-decoration: none;
+	list-style: none;
+	display: flex;
+	align-content: space-between;
+	flex-direction: column;
+	padding: 12px;
+	margin-bottom: 32px;
+	background:rgba(255, 255, 255, 0.712);
+	border-radius: 20px;
+}
+
+.button {
+	display: inline-block;
+	padding: 5px 16px;
+	margin: 0 10px;
+	font-size: 16px;
+	line-height: 40px;
+	border: none;
+	border-radius: 0.4rem;
+	color: hsl(216, 13%, 15%);
+	background: #fff;
+	cursor: pointer;
+}
