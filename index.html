@@ -7,14 +7,12 @@
 		<link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet"> 
 	</head>
 	<body>
-		<div class="center">
-		<nav class="controls spBetween">
-			<a href="#" class="button" id="start">Start</a>
-			<a href="#" class="button" id="stop">Stop</a>
-		</nav>
-		<div class="stopwatch"></div>
+		<div id="containerStopwatch"></div>
 		<ul class="results"></ul>
-	</div>
-	<script type="text/javascript" src="script-compiled.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.4.4/polyfill.min.js"></script>
+		<script src="https://unpkg.com/react@15.3.2/dist/react.js"></script>
+		<script src="https://unpkg.com/react-dom@15.3.2/dist/react-dom.js"></script>
+		<script src="https://github.com/babel/babel-standalone/releases/download/release-6.26.0/babel.min.js"></script>
+		<script type="text/babel" src="script.js"></script>
 	</body>
 </html>

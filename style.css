@@ -22,16 +22,10 @@ body {
 	justify-content: space-between;
 }
 
-li {
-	text-decoration: none;
-	list-style: none;
+.row {
 	display: flex;
-	align-content: space-between;
-	flex-direction: column;
-	padding: 12px;
-	margin-bottom: 32px;
-	background:rgba(255, 255, 255, 0.712);
-	border-radius: 20px;
+	justify-content: space-between;
+	flex-direction: row;
 }
 
 .button {
