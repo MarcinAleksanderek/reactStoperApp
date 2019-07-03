@@ -15,6 +15,7 @@ class Stopwatch extends React.Component{
 		this.step = this.step.bind(this);
 		this.calculate = this.calculate.bind(this);
 		this.stop = this.stop.bind(this);
+		this.watch = -1;
 	}
 
 	format(times) {
